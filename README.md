@@ -132,7 +132,3 @@ The ADC-to-BAC lookup table in `adc.c` is derived from the MQ-3 datasheet charac
 Developed as a final project for **ECE 47100** (Microprocessor System Design) at Purdue University. The project demonstrates interrupt-driven embedded design, hardware peripheral integration (ADC, serial display, servo), and resource-constrained firmware development on an 8-bit PIC microcontroller.
 
 ---
-
-## License
-
-This project is for educational purposes. Feel free to use or adapt it with attribution.

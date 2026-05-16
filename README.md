@@ -10,7 +10,7 @@ An embedded systems project built on the **PIC18F4331** microcontroller that mea
 - **Interrupt-driven flow** — a dip switch triggers `INT0` to initiate a reading without polling
 - **Averaged ADC sampling** (20 samples) for stable, noise-resilient readings
 - **Integer-only BAC conversion** using a precomputed lookup table with linear interpolation — no floating-point library needed (keeps flash usage within the PIC18F4331's 8K-word limit)
-- **1602A OLED display** driven over a bit-banged serial interface (no I2C hardware peripheral required)
+- **1602A OLED display** driven over a bit-banged serial interface
 - **Servo motor control** via software bit-bang PWM at 50 Hz, sweeping 0°→180°→0° on pass
 - **LED indicator** signals when the system is actively sampling
 - **Safe/locked decision** compared against the 0.08% BAC legal threshold
